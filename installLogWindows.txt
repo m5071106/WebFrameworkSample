@@ -1,13 +1,9 @@
 [Ruby]
-  PowerShell (Visual Studio Code のターミナル)を利用
-  インストール
-  winget install RubyInstallTeam.Ruby
-  【結果】入力条件に一致するパッケージが見つかりませんでした。
-
   インストーラからインストール
     https://rubyinstaller.org/downloads/
 
-  ruby -v
+  バージョン確認
+    ruby -v
 
 [SQLite3]
   参考URL: https://qiita.com/tks_00/items/711a022c6234fc495724
@@ -19,15 +15,19 @@
   参考URL: https://qiita.com/tks_00/items/711a022c6234fc495724
   インストール
     gem install rails
-  rails -v
+  
+  バージョン確認
+    rails -v
 
   アプリケーション作成
-  rails new first_app_rails -G
+    rails new first_app_rails -G
 
   サーバ起動
-  cd first_app_rails
-  rails server
-  http://localhost:3000
+    cd first_app_rails
+    rails server
+  
+  Webブラウザで確認
+    http://localhost:3000
   
 [Django]
 
