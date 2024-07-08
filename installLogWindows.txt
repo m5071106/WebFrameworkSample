@@ -1,0 +1,34 @@
+[Ruby]
+  PowerShell (Visual Studio Code のターミナル)を利用
+  インストール
+  winget install RubyInstallTeam.Ruby
+  【結果】入力条件に一致するパッケージが見つかりませんでした。
+
+  インストーラからインストール
+    https://rubyinstaller.org/downloads/
+
+  ruby -v
+
+[SQLite3]
+  参考URL: https://qiita.com/tks_00/items/711a022c6234fc495724
+  インストール
+    https://sqlite.org/index.html
+
+
+[Rails]
+  参考URL: https://qiita.com/tks_00/items/711a022c6234fc495724
+  インストール
+    gem install rails
+  rails -v
+
+  アプリケーション作成
+  rails new first_app_rails -G
+
+  サーバ起動
+  cd first_app_rails
+  rails server
+  http://localhost:3000
+  
+[Django]
+
+[Laravel]
