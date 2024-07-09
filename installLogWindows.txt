@@ -29,6 +29,28 @@
   Webブラウザで確認
     http://localhost:3000
   
+  (参考)https://www.tohoho-web.com/ex/rails.html
+  
+  Controller 作成
+    rails generate controller Home index
+    (Prompt)
+      create  app/controllers/home_controller.rb
+       route  get 'home/index'
+      invoke  erb
+      create    app/views/home
+      create    app/views/home/index.html.erb
+      invoke  test_unit
+      create    test/controllers/home_controller_test.rb
+      invoke  helper
+      create    app/helpers/home_helper.rb
+      invoke    test_unit
+    
+  app/views/home/index.html.erb の
+  <h1>Home#index</h1>
+  を別の名称へ修正（そのままだとPermission Deniedされる)
+
+  http://localhost:3000/home/index
+
 [Django]
 
 [Laravel]
